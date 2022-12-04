@@ -1,0 +1,343 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.nav1{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.nav1 h1{
+    margin-left: 20%;
+    font-size: 15px;
+}
+
+body{
+    background-color: #dfe6e9
+}
+
+.item{
+    width: 60%;
+    height: 200px;
+    background-color: white;
+    margin: auto;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    padding-top: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.item div{
+    width: 15%;
+    height: 90px;
+    margin: auto;
+    border-radius: 100%;
+}
+
+.item div img{
+    width: 80%;
+    height: 120px;
+    border-radius: 100%;
+    border: 5px solid rgb(108, 92, 231, 0.5);
+    
+    margin-top: 10px;
+
+    
+}
+
+.item h1{
+    font-size: 20px;
+    margin-top: 60px;
+    margin-left: 39%;
+    color: rgb(11, 11, 187,0.5);
+}
+
+.nav2{
+    width: 60%;
+    height: 60px;
+    background-color: rgb(108, 92, 231);
+    margin: auto;
+    color: white;
+    margin-top: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    position: sticky;
+    top: 20px;
+}
+
+.nav2 h1{
+    display: flex;    
+    justify-content: center;
+    padding-top: 15px;
+}
+
+.cards{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card1{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.card1:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card2{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.card2:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card3{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card3:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.cards2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+.card4{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.card4:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card5{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.card5:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card6{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card6:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card1 img{
+   
+    margin-top: 10%;
+
+}
+
+.card2 img{
+   
+    margin-top: 10%;
+    
+}
+.card3 img{
+   
+    margin-top: 10%;
+    
+}
+.card4 img{
+    
+    margin-top: 10%;
+    
+}
+.card5 img{
+ 
+    margin-top: 10%;
+    
+}
+.card6 img{
+    
+    margin-top: 10%;
+    
+}
+.card7 img{
+    
+    margin-top: 10%;
+    
+}
+.card8 img{
+    
+    margin-top: 10%;
+    
+}
+.card9 img{
+    
+    margin-top: 10%;
+    
+}
+.card10 img{
+    
+    margin-top: 10%;
+    
+}
+.card11 img{
+    
+    margin-top: 10%;
+    
+}
+.card12 img{
+    
+    margin-top: 10%;
+    
+}
+.btn_sell{
+    background-color: rgb(231, 227, 227);
+    width: 70px;
+    height: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 50px;
+}
+.card_inp{
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid  rgb(108, 92, 231) ;
+
+
+}
+.btn_buy{
+    background-color: rgb(108, 92, 231, 0.5);
+    width: 70px;
+    height: 30px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    color: white;
+
+}
+.h4{
+    margin-top: 10px;
+}
+
+.cards3{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.card7{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.card7:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card8{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.card8:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card9{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card9:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.cards4{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+.card10{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+
+}
+.card10:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}   
+.card11{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px 0px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+.card11:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.card12{
+    width: 18%;
+    height: 300px;
+    background-color: white;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.card12:hover{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 60%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
